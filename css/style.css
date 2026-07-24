@@ -29,7 +29,11 @@ a:hover{
     color: black;
 }
 
-/************this applies to any piece of code in the nav bar that applies to more than one item****************/
+body{
+    height:200vh;
+}
+
+/************this applies to any piece of code in the nav bar that applies to more than one item***********************/
 .index, .about, .sign-up, .contact, .portal{
     display: flex;
     justify-content: center;
@@ -72,6 +76,63 @@ a:hover{
     font-weight: bold;
     color: royalblue;
 }
+
+/**************************************************topic-biology************************************************************/
+.topic {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 100vh;
+    width: 100vw;
+    grid-template-areas:
+"head header header header"
+"sidebar main main main"
+"sidebar footer footer footer";
+}
+
+
+/***************************notes / videos / questions / sidebar for biology*******************************************/
+.notes{
+    grid-area: header / header / header;
+    background-color: blue;
+}
+
+.videos{
+    grid-area: main / main / main;
+    background-color: green;
+}
+
+.questions{
+    grid-area: footer / footer / footer;
+    background-color: yellow;
+}
+
+.biology{
+    grid-area: head / sidebar / sidear;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+}
+
+/******************this section represents the testing area that would hold pdf topics for biology*********************/
+.texta{
+    grid-area: header / header / header;
+}
+
+.textb{
+    grid-area: main / main / main;
+}
+
+.textc{
+    grid-area: footer / footer / footer;
+}
+
+
+
+
+
+
+
+
 /**********************************************************************************************************************/
 .layout {
     display: grid;
@@ -101,7 +162,7 @@ a:hover{
     padding: 20px;
 }
 
-.topic1{
+.topic1 {
     display: flex;
     flex-direction: column;
     padding: 30px;
