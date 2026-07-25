@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test-dropdown</title>
+  <link rel="stylesheet" href="../test-dropdown/test-style.css">
+</head>
+<body>
+<h1>test-dropdown</h1>
+
+<!-- PART 1: The Dropdown Menu -->
+<div class="dropdown-container">
+  <button id="dropdownBtn">Choose Content</button>
+  <div id="dropdownMenu" class="dropdown-content">
+    <!-- data-target matches the ID of the section we want to show -->
+    <button class="dropdown-item" data-target="content-info">Show Info</button>
+    <button class="dropdown-item" data-target="content-stats">Show Stats</button>
+    <button class="dropdown-item" data-target="content-settings">Show Settings</button>
+  </div>
+</div>
+
+<!-- PART 2: The Separate Content Area (Elsewhere on the page) -->
+<div class="display-panel">
+  <div id="content-info" class="panel-content active">
+    <h3>Information Section</h3>
+    <p>This is the default visible information content.</p>
+  </div>
+
+  <div id="content-stats" class="panel-content">
+    <h3>Statistics Section</h3>
+    <p>Data and statistical charts go here.</p>
+  </div>
+
+  <div id="content-settings" class="panel-content">
+    <h3>Settings Section</h3>
+    <p>Manage your account preferences here.</p>
+  </div>
+</div>
+
+<script src="behavior.js"></script>
+</body>
+</html>
