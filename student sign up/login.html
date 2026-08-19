@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kadyjamesteach</title>
     <link rel="stylesheet" href="../css/general-style.css">
-    <link rel="stylesheet" href="../css/portal-style.css">
+    <link rel="stylesheet" href="../css/login-style.css">
 </head>
 <body class="background">
 
@@ -31,7 +31,7 @@
                     <a href="../student%20sign%20up/sign%20up.html">SIGN UP</a>
                 </p>
                 <p class="portal">
-                    <a href="../student%20sign%20up/portal.html">LOG IN</a>
+                    <a href="../student%20sign%20up/login.html">LOG IN</a>
                 </p>
             </div>
         </nav>>
@@ -39,22 +39,27 @@
 
 <!-------------------------------------------------------LOGIN PORTAL-------------------------------------------------->
 
-<article>
-  <section>
-    <h3>STUDENT LOGIN</h3>
-    <form>
-      <label for="Username">Username</label>
-      <input type="text" id="Username" name="Username" placeholder="Enter your Username" required>
+<article class="log-in">
+    <section class="box">
+<h3>STUDENT LOGIN</h3>
+    <form action="https://formspree.io/f/xppakpqd" method="POST">
+        <div>
+            <label for="Username">Username</label>
+            <input type="text" id="Username" name="Username" placeholder="Enter your Username" required>
+        </div>
 
-      <label for="Password">Password</label>
-      <input type="text" id="Password" name="Password" placeholder="Enter your Password" required>
+        <div>
+            <label for="Password">Password</label>
+            <input type="password" id="Password" name="Password" placeholder="Enter your Password" required>
+        </div>
 
-      <button id="SignIn">
-        <a href="student%20portal.html">Log in!</a>
-      </button>
+        <div>
+             <button class="submit" type="submit">Log In!</button>
+        </div>
 
     <h4>If you have not registered with us, feel free to click the link below to sign up and open an account with us now!</h4>
-    <a href="sign%20up.html">Click here to Sign Up!</a>
+
+    <a class="click" href="sign%20up.html">Click here to Sign Up!</a>
     </form>
   </section>
 </article>

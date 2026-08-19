@@ -37,19 +37,25 @@ body{
 .biology{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height:300vh;
+    height:150vh;
     grid-template-areas: "sidebar header";
     gap:10px ;
+    margin-top: 40px;
 }
 
 .one-one{
     grid-area: sidebar;
     width: 25vw;
-    background-color: red;
+    background-color: lightseagreen;
 }
 
 .two-two{
     grid-area: header;
     width: 75vw;
-    background-color: blue;
+    background-color: lightgray;
+}
+
+.circulation{
+    width: 73vw;
+    height: 100vh;
 }

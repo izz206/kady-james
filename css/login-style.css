@@ -1,0 +1,54 @@
+input{
+    border-radius: 4px;
+    height: 30px;
+    width: 240px;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.log-in{
+    display: grid;
+    place-items: center;
+}
+
+.box{
+   padding: 200px;
+    text-align: center;
+    border: 1px solid lightblue;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    margin-top:50px;
+
+}
+
+h3{
+    margin: 20px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.submit {
+    font-size: 15px;
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    background: lightseagreen;
+}
+
+.submit:hover{
+     transform: scale(1.5);
+}
+
+.click{
+    font-size: 15px;
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    background: lightcoral;
+}
+
+.click:hover{
+    transform: scale(3);
+}
