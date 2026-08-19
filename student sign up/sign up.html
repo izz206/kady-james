@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kadyjamesteach</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/general-style.css">
+    <link rel="stylesheet" href="../css/signup-style.css">
 </head>
 <body class="background">
 
@@ -34,57 +35,123 @@
                 </p>
             </div>
         </nav>
+
+
 <!----------------------------------------------------SIGN UP FORM----------------------------------------------------->
+<h3>STUDENT LOGIN</h3>
 
-<article>
-  <section>
-    <h3>STUDENT LOGIN</h3>
-    <form>
-      <label for="First name">First name</label>
-      <input type="text" id="First name" name="First name" placeholder="Enter your First Name" required>
+<h4>Demographic Data</h4>
+<section class="students">
+    <form action="https://formspree.io/f/maewljlk" method="POST">
+        <div class="form-group">
+            <label for="First name">First name</label>
+            <input type="text" id="First name" name="First name" placeholder="First Name" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="Last Name">Last Name</label>
+            <input type="text" id="Last Name" name="Last Name" placeholder="Last Name" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="Age">Age</label>
+            <input type="number" id="Age" name="Age" placeholder="Age" required min="11" max="30">
+        </div>
+        
+        <div class="form-group">
+            <label for="Gender">Gender</label>
+            <select name="Gender" id="Gender" required>
+                <option value="Select gender">Choose Your Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" id="Email" name="Email" placeholder="Your Email" required minlength="50" maxlength="100">
+        </div>
+        
+        <div class="form-group">
+            <label for="School">School</label>
+            <input type="text" id="School" name="School" placeholder="Your School" required minlength="40" maxlength="90">
+        </div>
+        
+        <div class="form-group">
+            <label for="Form">Form</label>
+            <select name="Form" id="Form" required>
+                <option value="Select Form">Choose Your Form</option>
+                <option value="4">Form 4</option>
+                <option value="5">Form 5</option>
+                <option value="6">Form 6</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="Parent's first name">Parent's first name</label>
+            <input type="text" id="Parent's first name" name="Parents first name" placeholder="Parent's First name" required>
+        </div>
 
-      <label for="Last Name">Last Name</label>
-      <input type="text" id="Last Name" name="Last Name" placeholder="Enter your Last Name" required>
+        <div class="form-group">
+            <label for="Parent's last name">Parent's last name</label>
+            <input type="text" id="Parent's last name" name="Parent's last name" placeholder="Parent's Last name" required>
+        </div>
 
-      <label for="Age">Age</label>
-      <input type="number" id="Age" name="Age" placeholder="Enter your Age" required>
 
-      <label for="Gender">Gender</label>
-      <input type="text" id="Gender" name="Gender" placeholder="Enter your name" required>
+        <div class="form-group">
+            <label for="Parent's email address">Parents's email address</label>
+            <input type="email" id="Parent's email address" placeholder="Parents's Email" required>
+        </div>
 
-      <label for="Email">Email</label>
-      <input type="email" id="Email" name="Email" placeholder="Enter your email" required>
+        <div class="form-group">
+            <label for="Parent's contact number">Parent's contact number</label>
+            <input type="number" id="Parent's contact number" placeholder="Parent's Contact" required>
+        </div>
 
-      <label for="School">School</label>
-      <input type="text" id="School" name="School" placeholder="Enter your School" required minlength="4" maxlength="150">
+<!---------------------------------------------STUDENT TYPE------------------------------------------------------------>
+  <h4>What kind of Student are you?</h4>
+   <section class="radio">
+       <div class="form-group">
+           <label for="New Student" >New Student</label>
+           <input class="new" type="radio" id="New Student" name="Student" required>
+           <small id="description-1"> i.e - A student who is new to the given subject, with no prior knowledge</small>
+       </div>
 
-      <label for="Form">Form</label>
-      <input type="number" id="Form" name="Form" placeholder="Enter your Form" required maxlength="5">
+       <div class="form-group">
+           <label for="Continuing Student">Continuing Student</label>
+           <input class="continue" type="radio" id="Continuing Student" name="Student" required>
+           <small id="description-2"> i.e.-  A student who is already exposed to the foundation of the subject</small>
+       </div>
 
-      <label for="Parents first name">Parents first name</label>
-      <input type="text" id="Parents first name" name="Parents first name" placeholder="Enter your Parents first name" required>
+       <div class="form-group">
+           <label for="Repeating Student">Repeating Student</label>
+           <input class="repeat" type="radio" id="Repeating Student" name="Student" required>
+           <small id="description-3"> i.e - A student who is preparing to re-write exams in January or June</small>
+       </div>
 
-      <label for="Parents last name">Parents last name</label>
-      <input type="text" id="Parents last name" name="Parents last name" placeholder="Enter your Parents last name" required>
+       <div class="form-group">
+           <label for="Private Student">Private Student</label>
+           <input class="private" type="radio" id="Private Student" name="Student" required>
+           <small id="description-4"> i.e - A student who is doing the subbject as an extra or additional subject outside the school system with no SBA experience</small>
+       </div>
+   </section>
 
-      <label for="Parent's email address">Parents's email address</label>
-      <input type="email" id="Parent's email address" placeholder="Enter your Parents's email address" required>
+<!----------------------------------------------USERNAME AND PASSWORD-------------------------------------------------->
 
-      <label for="Parent's contact number">Parent's contact number</label>
-      <input type="number" id="Parent's contact number" placeholder="Enter your Parent's contact number" required>
 
-      <h4>What kind of Student are you?</h4>
-      <label for="New Student">New Student</label>
-      <input type="checkbox" id="New Student" name="New Student" required>
+  <h4>Username and Password</h4>
+        <div class="form-group">
+            <label for="Username">Username</label>
+            <input type="text" id="Username" name="Username" placeholder="Username" required>
+        </div>
 
-      <label for="Continuing Student">Continuing Student</label>
-      <input type="checkbox" id="Continuing Student" name="Continuing Student" required>
-
-      <label for="Repeating Student">Repeating Student</label>
-      <input type="checkbox" id="Repeating Student" name="Repeating Student" required>
-
-      <h3>Click Here to Sign Up Now!</h3>
-      <button id="Sign Up">Sign Up!</button>
+        <div class="form-group">
+            <label for="Password">Password</label>
+            <input type="password" id="Password" name="Password" placeholder="Password" required minlength="9" maxlength="12">
+        </div>
+<!-----------------------------------------------SUBMISSION------------------------------------------------------------>
+    <div class="form-group">
+        <button class="submit" type="submit">Sign Up!</button>
+    </div>
     </form>
-  </section>
-</article>
+</section>

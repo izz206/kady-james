@@ -1,0 +1,52 @@
+/*********************************************background picture settings**********************************************/
+.background{
+    background-image: url(../media/homepage.001.jpg); /*background image*/;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+/*****************************************one and done pieces of code**************************************************/
+.header{
+    text-align: center;
+}
+
+.links{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 5vh;
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid lightgreen;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: lightseagreen;
+}
+a{
+    color: black;
+}
+
+body{
+    height:200vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
