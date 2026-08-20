@@ -6,7 +6,7 @@
     background-position: center ;
 }
 
-/*****************************************one and done pieces of code**************************************************/
+/********************************************generalized styles********************************************************/
 .header{
     text-align: center;
 }
@@ -23,10 +23,10 @@
 
 a{
     text-decoration: none;
-    color: lightseagreen;
-}
-a{
     color: black;
+}
+a:hover{
+    color: lightseagreen;
 }
 
 body{

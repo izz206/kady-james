@@ -1,0 +1,19 @@
+h3{
+    margin: 5rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 1rem;
+
+}
+
+.sidebar{
+    background-color: lightcoral;
+    height: 150vh;
+}
+
+.main{
+    background-color: lightgray;
+}

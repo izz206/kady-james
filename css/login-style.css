@@ -27,7 +27,7 @@ h3{
     font-size: 25px;
 }
 
-.submit {
+.submit, a.click {
     font-size: 15px;
     border-radius: 12px;
     border: none;
@@ -36,19 +36,6 @@ h3{
     background: lightseagreen;
 }
 
-.submit:hover{
+.submit:hover, a.click:hover {
      transform: scale(1.5);
-}
-
-.click{
-    font-size: 15px;
-    border-radius: 12px;
-    border: none;
-    padding: 10px;
-    margin: 20px;
-    background: lightcoral;
-}
-
-.click:hover{
-    transform: scale(3);
 }

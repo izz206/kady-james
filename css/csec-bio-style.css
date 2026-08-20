@@ -40,7 +40,7 @@ body{
     height:150vh;
     grid-template-areas: "sidebar header";
     gap:10px ;
-    margin-top: 40px;
+    margin-top: 200px;
 }
 
 .one-one{

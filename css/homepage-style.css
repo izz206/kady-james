@@ -3,25 +3,23 @@
     display: flex;
     justify-content: center;
 }
-
 /****************************************************csec**************************************************************/
 .csec{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    height:85vh;
+    height:55vh;
     width: 99vw;
 }
-
 /*******************************************************cape***********************************************************/
 .cape{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    height:45vh;
+    height:25vh;
     width: 99vw;
 }
-
 /****************************************************grid items********************************************************/
+
 .one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
     display: flex;
     justify-content: center;
@@ -32,15 +30,11 @@
     font-weight: bold;
     font-style: italic;
     font-size: 45px;
+    margin: 20px;
 }
-
 /****************************************************enrollment*********************************************************/
-.enroll{
-    display: flex;
-    justify-content: center;
-    font-size:45px;
-    font-weight: bold;
+
+.CXC, .CAPE {
+    margin-top: 100px;
+    text-align: center;
 }
-
-
-
