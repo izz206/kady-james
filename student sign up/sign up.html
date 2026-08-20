@@ -39,9 +39,10 @@
 
 <!----------------------------------------------------SIGN UP FORM----------------------------------------------------->
 <h3>STUDENT LOGIN</h3>
-
 <h4>Demographic Data</h4>
-    <form class="box" action="https://formspree.io/f/maewljlk" method="POST">
+
+
+    <form method="post" data-netlify="true">
         <div class="form-group">
             <label for="First name">First name</label>
             <input type="text" id="First name" name="First name" placeholder="First Name" required>
@@ -61,7 +62,7 @@
             <label for="Gender">Gender</label>
             <select name="Gender" id="Gender" required>
                 <option value="Select gender">Choose Your Gender</option>
-                <option value="Male">Male</option>
+                <option value="Male" >Male</option>
                 <option value="Female">Female</option>
             </select>
         </div>
@@ -99,17 +100,17 @@
 
         <div class="form-group">
             <label for="Parent's email address">Parents's email address</label>
-            <input type="email" id="Parent's email address" placeholder="Parents's Email" required>
+            <input type="email" id="Parent's email address" placeholder="Parents's Email" name="Parents's email address" required>
         </div>
 
         <div class="form-group">
             <label for="Parent's contact number">Parent's contact number</label>
-            <input type="number" id="Parent's contact number" placeholder="Parent's Contact" required>
+            <input type="number" id="Parent's contact number" placeholder="Parent's Contact" name="Parents's contact number" required>
         </div>
 <!---------------------------------------------STUDENT TYPE------------------------------------------------------------>
   <h4>What kind of Student are you?</h4>
-   <section class="radio">
-       <div class="form-group">
+
+        <div class="form-group">
            <label for="New Student" >New Student</label>
            <input class="new" type="radio" id="New Student" name="Student" required>
            <small id="description-1"> i.e - A student who is new to the given subject, with no prior knowledge</small>
@@ -132,7 +133,6 @@
            <input class="private" type="radio" id="Private Student" name="Student" required>
            <small id="description-4"> i.e - A student who is doing the subbject as an extra or additional subject outside the school system with no SBA experience</small>
        </div>
-   </section>
 
 <!----------------------------------------------USERNAME AND PASSWORD-------------------------------------------------->
 
@@ -153,6 +153,5 @@
     <a href="../student%20sign%20up/sign%20up-2.html">Next page</a>
 </h5>
 
-    </form>
-
+</form>
 </body>
