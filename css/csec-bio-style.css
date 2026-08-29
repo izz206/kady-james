@@ -34,28 +34,62 @@ body{
 
 /***************************************topic-settings for biology grid************************************************/
 
-.biology{
+.notes{
+    text-align: center;
+}
+
+.biology-notes{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height:150vh;
-    grid-template-areas: "sidebar header";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    height:250vh;
+    grid-template-areas:
+            "header main main"
+            "sidebar1 main main"
+            "sidebar2 main main"
+            "sidebar3 main main"
+            "sidebar4 main main"
+            "sidebar5 main main"
+            "sidebar6 main main";
     gap:10px ;
-    margin-top: 200px;
+    margin-top: 25px;
 }
 
-.one-one{
-    grid-area: sidebar;
-    width: 25vw;
-    background-color: lightseagreen;
-}
-
-.two-two{
+.welcome{
     grid-area: header;
-    width: 75vw;
+    height: 40vh;
+    background-color: pink;
+}
+
+.sidebar-notes{
+    background-color: lightseagreen;
+    grid-area: sidebar1;
+    height: 40vh;
+    box-shadow:  0 4px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar-videos{
+    grid-area: sidebar2;
+    height: 40vh;
+    background-color: orange;
+
+}
+
+.sidebar-summary{
+    grid-area: sidebar3;
+    height: 40vh;
+    background-color: red;
+}
+
+.classlink{
+    grid-area: sidebar4;
+    height: 40vh;
+    background-color: blue;
+}
+
+.portal{
+    grid-area: main ;
     background-color: lightgray;
 }
 
-.circulation{
-    width: 73vw;
-    height: 100vh;
-}
+
