@@ -1,9 +1,9 @@
 /*********************************************background picture settings**********************************************/
 .background{
-    background-image: url(../media/homepage.001.jpg); /*background image*/;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center ;
+    background-color: #c5e4ed;
 }
 
 /********************************************generalized styles********************************************************/
@@ -14,10 +14,9 @@
 .links{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    height: 5vh;
+    height: 10vh;
     text-decoration: none;
-    text-align: center;
-    border: 3px solid lightgreen;
+    border: 3px solid #2930ba;
     font-style: italic;
 }
 
@@ -26,7 +25,7 @@ a{
     color: black;
 }
 a:hover{
-    color: lightseagreen;
+    color: white;
 }
 
 body{

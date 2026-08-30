@@ -1,7 +1,8 @@
 /************this applies to any piece of code in the nav bar that applies to more than one item***********************/
-.index, .about, .sign-up, .contact, .portal{
+.index, .about, .sign-up, .contact, .log-in{
     display: flex;
     justify-content: center;
+    font-size: 25px;
 }
 /****************************************************csec**************************************************************/
 .csec{
@@ -37,4 +38,40 @@
 .CXC, .CAPE {
     margin-top: 100px;
     text-align: center;
+}
+
+.one:hover{
+    background-color: red;
+}
+
+.two:hover{
+    background-color: green;
+}
+
+.three:hover{
+    background-color: purple;
+}
+
+.four:hover{
+    background-color: pink;
+}
+
+.five:hover{
+    background-color: blue;
+}
+
+.six:hover{
+    background-color: gold;
+}
+
+.home:hover,
+.sign-up:hover,
+.aboutme:hover,
+.contact:hover,
+.log-in:hover{
+    color: black;
+}
+
+.contactmelink:hover{
+    color: black;
 }

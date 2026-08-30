@@ -12,13 +12,14 @@ input{
 }
 
 .box{
-   padding: 200px;
+    padding: 200px;
+    width: 400px;
+    height: 250px;
     text-align: center;
     border: 1px solid lightblue;
     border-radius: 15px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
-    margin-top:50px;
-
+    margin-top:75px;
 }
 
 h3{
@@ -27,7 +28,21 @@ h3{
     font-size: 25px;
 }
 
-.submit, a.click {
+.submit{
+    font-size: 15px;
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    background: lightseagreen;
+
+}
+
+.submit:hover{
+     transform: scale(1.5);
+}
+
+.click{
     font-size: 15px;
     border-radius: 12px;
     border: none;
@@ -36,6 +51,6 @@ h3{
     background: lightseagreen;
 }
 
-.submit:hover, a.click:hover {
-     transform: scale(1.5);
+.click:hover{
+    transform: scale(1.5);
 }

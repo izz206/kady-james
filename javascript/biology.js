@@ -14,6 +14,15 @@ for (let i = 0; i < listItems.length; i++) {
 
 //JavaScript style for linking sidebar option element selection to specific document
 
+const firstName =  '';
+const lastName =  '';
+
+const studentName = document.querySelector('.student');
+console.log(studentName);
+
+
+
+//JavaScript for linking a given dropdown item on the left hand side to a separate viewing window on the right hand side
 
 
 
