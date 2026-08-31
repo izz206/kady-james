@@ -10,8 +10,8 @@ input, option{
     font-size: 16px;
 }
 
-.form-group{
-    margin-bottom: 2rem;
+.form-group {
+    margin: 2rem;
 }
 
 .new, .repeat, .continue, .private{
@@ -34,6 +34,24 @@ input, option{
 form{
     margin: 2.5rem;
 }
+
+input{
+    margin: 1.5rem;
+}
+
+#Form, #Gender{
+    border-radius: 15px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: lightseagreen;
+    border: none;
+}
+
+#Form:hover,
+#Gender:hover{
+    background-color: blue;
+    border: 2px solid lightseagreen;
+}
 /***********************************************heading styles for h3 and h4*******************************************/
 
 h3{
@@ -46,7 +64,7 @@ h4{
     font-style: italic;
     font-size: 20px;
     background-color: red;
-    border-radius: 7px;
+    border-radius: 10px;
     padding: 0.4rem;
     margin: 2rem;
 }

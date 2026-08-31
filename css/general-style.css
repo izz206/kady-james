@@ -17,6 +17,7 @@
     height: 10vh;
     text-decoration: none;
     border: 3px solid #2930ba;
+    border-radius: 15px;
     font-style: italic;
 }
 
