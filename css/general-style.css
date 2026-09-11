@@ -1,9 +1,7 @@
 /*********************************************background picture settings**********************************************/
 .background{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center ;
     background-color: #c5e4ed;
+    background-image: url('https://kady-james-teach-media-bucket.s3.us-east-2.amazonaws.com/chemistry.jpg');
 }
 
 /********************************************generalized styles********************************************************/
