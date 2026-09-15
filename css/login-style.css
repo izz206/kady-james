@@ -39,7 +39,9 @@ h3{
 }
 
 .submit:hover{
-     transform: scale(1.5);
+    transform: scale(1.5);
+
+
 }
 
 .click{
@@ -53,4 +55,9 @@ h3{
 
 .click:hover{
     transform: scale(1.5);
+}
+
+
+.student-login, .username, .password, .note, .click-here{
+    color: black
 }

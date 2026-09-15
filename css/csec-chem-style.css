@@ -9,3 +9,7 @@
 .background-chemistry{
     background-image: url('https://kady-james-teach-media-bucket.s3.us-east-2.amazonaws.com/chemistry.jpg');
 }
+
+.background-chemistry{
+    background-image: url("https://kady-james-teach-media-bucket.s3.us-east-2.amazonaws.com/general+pictures/chemistry.jpg");
+}

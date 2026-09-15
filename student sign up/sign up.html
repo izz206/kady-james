@@ -40,7 +40,7 @@
 
 
 <!----------------------------------------------------SIGN UP FORM----------------------------------------------------->
-<h3>STUDENT LOGIN</h3>
+<h3>STUDENT SIGN UP</h3>
 <h4>Demographic Data</h4>
 
     <form action="" method="POST">
@@ -149,6 +149,7 @@
             <input type="password" id="Password" name="Password" placeholder="Password" required minlength="9" maxlength="12">
             <small id="description-6"> i.e - A student who is doing the subbject as an extra or additional subject outside the school system with no SBA experience</small>
         </div>
+<!---------------------------------------------SUBJECT AREA / CLASSES------------------------------------------------->
 
 <h4>Subject Area(s)</h4>
 <h5>CXC</h5>
@@ -177,11 +178,32 @@
           <input class="new" type="checkbox" id="Additional Mathematics" name="Student" >
         </div>
 
+<!--------------------------------------------------------------------------------------------------------------------->
+   <h4>Payment Method</h4>
 
-       <div class="form-group">
+        <div class="radio-group">
+            <div class="form-group">
+                <label for="Local-transfer">Local Transfer</label>
+                <input class="local" type="radio" id="Local-transfer" name="payment" required>
+                <small id="describe"> i.e -(Republic Bank / Scotia Bank / Royal Bank)</small>
+            </div>
+
+            <div class="form-group">
+                <label for="International-transfer">International-transfer</label>
+                <input class="international" type="radio" id="International-transfer" name="payment" required>
+                <small id="describe-1"> i. e. Wise / Transfer Wise</small>
+            </div>
+
+            <div class="form-group">
+                <label for="CryptoCurrency">CryptoCurrency</label>
+                <input class="CryptoCurrency" type="radio" id="CryptoCurrency" name="payment" required>
+                <small id="describe-2"></small>
+            </div>
+        </div>
+
+
+        <div class="form-group">
           <button class="submit" type="submit">Sign Up!</button>
        </div>
-
-
 </form>
 </body>

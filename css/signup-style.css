@@ -11,10 +11,10 @@ input, option{
 }
 
 .form-group {
-    margin: 2rem;
+    margin: 1rem;
 }
 
-.new, .repeat, .continue, .private{
+.new, .repeat, .continue, .private, .CryptoCurrency, .local, .international{
     box-shadow: none;
 }
 
@@ -67,4 +67,10 @@ h4{
     border-radius: 10px;
     padding: 0.4rem;
     margin: 2rem;
+}
+
+
+#describe, #describe-1{
+    border: 1px solid lightseagreen;
+    text-align: left;
 }

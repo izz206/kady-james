@@ -1,37 +1,44 @@
-/*********************************************background picture settings**********************************************/
+/******************************************doc type declaration - .background******************************************/
 .background{
-    background-color: #c5e4ed;
-    background-image: url('https://kady-james-teach-media-bucket.s3.us-east-2.amazonaws.com/chemistry.jpg');
+    background-color: lightskyblue;
+    background-image: url('https://kady-james-teach-media-bucket.s3.us-east-2.amazonaws.com/general+pictures/chemistry.jpg');
 }
 
-/********************************************generalized styles********************************************************/
+/******************************************doc type declaration - body styles******************************************/
+body{
+    height:200vh;
+}
+
+/***********************************************.header styles*********************************************************/
 .header{
     text-align: center;
 }
 
+/***********************************************.links styles**********************************************************/
 .links{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     height: 10vh;
     text-decoration: none;
-    border: 3px solid #2930ba;
+    border: 3px solid lightskyblue;
     border-radius: 15px;
     font-style: italic;
 }
-
+/***********************************************hyperlink styles*******************************************************/
 a{
     text-decoration: none;
     color: black;
 }
-a:hover{
-    color: white;
+
+
+/*********************.home:hover, .sign-up:hover, .aboutme:hover, .contact:hover, .log-in:hover***********************/
+.home:hover,
+.sign-up:hover,
+.aboutme:hover,
+.contact:hover,
+.log-in:hover{
+    color: lightskyblue;
 }
-
-body{
-    height:200vh;
-}
-
-
 
 
 
